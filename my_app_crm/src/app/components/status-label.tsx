@@ -10,7 +10,7 @@ export enum Status {
 
 export interface StatusLabelProps {
   children: React.ReactNode;
-  status?: Status;
+  status: Status;
   disabled?: boolean;
 }
 
@@ -19,6 +19,7 @@ export default function StatusLabel({
   status,
   disabled,
 }: StatusLabelProps) {
+  console.log(process.env.CRM_SECRET_KEY);
   return (
     <div
       className={clsx(
