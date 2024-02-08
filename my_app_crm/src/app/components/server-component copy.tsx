@@ -13,10 +13,8 @@ export default function ServerComponentCopy({
 
   return (
     <div>
-      <span>
-        Server Component Copy
-        {children}
-      </span>
+      <span>Server Component Copy</span>
+      {children}
     </div>
   );
 }

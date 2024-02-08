@@ -9,10 +9,8 @@ export default function ServerComponent({ children }: ServerComponentProps) {
 
   return (
     <div>
-      <span>
-        Server Component
-        {children}
-      </span>
+      <span>Server Component</span>
+      {children}
     </div>
   );
 }

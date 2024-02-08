@@ -1,4 +1,4 @@
-'use cloient';
+'use client';
 
 import React from 'react';
 import ServerComponentCopy from './server-component copy';
@@ -13,7 +13,6 @@ export default function ClientComponent({ children }: ClientComponentProps) {
   return (
     <div>
       <span>Client Component</span>
-      <ServerComponentCopy />
       {children}
     </div>
   );
